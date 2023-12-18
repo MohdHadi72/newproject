@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Polio Website </title>
+    <link rel="stylesheet" href="./newweb.css">
+    <script src="https://kit.fontawesome.com/ebe9f897c5.js" crossorigin="anonymous"></script>
+</head>
+<!-- <body style="background-image: url(./ali12.png); background-repeat: no-repeat; background-size: 50%; margin-left: 60%;"> -->
+    <body>
+    <div id="header" >
+
+  <div class="container">
+    <nav>
+        <h1><span>Mohd</span> Hadi</h1>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+    <div class="header-text">
+        <p>Back And Development</p>
+        <h1>Hi, I'm <span> Mohd Hadi </span> <br> From Uttar Pardesh</h1>
+    </div>
+  </div>
+    </div>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./back1.jpeg" alt="" width="70%">
+            </div>
+            <div class="about-col-2">
+                <h2 class="sub">About Me</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aliquam fugit suscipit quae eaque vero dignissimos debitis adipisci, molestiae laboriosam corrupti dolorem cupiditate inventore mollitia veritatis vel error doloremque libero.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dicta at error eos, nihil repellat tenetur ab numquam similique, omnis ipsa expedita animi fugit adipisci molestiae, voluptates accusamus beatae fugiat!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorum, provident, beatae tempora enim soluta eum quas praesentium ipsam fuga nemo sed. Ab cumque sunt magni, distinctio sit quae enim?</p>
+                
+                    <div class="tab-titles">
+                    <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+            
+                <div class="tab-contents active-tab" id="skills">
+            
+                    <ul>
+                            <li><span>UI?UX</span><br>Designing Web/App interFaces</li>
+                            <li><span>web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                         </ul>
+            
+                        </div>
+            
+                <div class="tab-contents" id="experience">
+            
+                    <ul>
+                       <li><span>2021</span><br>UI/Ux Designing Traning at Institute </li>
+                       <li><span>2019 - 2021</span><br>UI/UX Designing Expecutive At Coin Digital ltd.</li>
+                       <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+            
+                    </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            
+            <ul>
+                <li><span>2021</span><br>UI/Ux Designing Traning at Institute </li>
+                <li><span>2019 </span><br>UI/UX Designing Expecutive At Coin Digital ltd.</li>
+                <li><span>2016 </span><br>Internship at ekart eCommerce.</li>
+            </ul>
+   </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h2 class="sub">My Services</h2>
+        <div class="servies-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Designing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis labore magni, animi id perspiciatis aut fuga soluta facilis quia impedit quae,
+                 nesciunt excepturi, optio dicta voluptates. Quibusdam, sapiente minima?</p>
+                 <a href="#">Learm More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Desing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis labore magni, animi id perspiciatis aut fuga soluta facilis quia impedit quae,
+                 nesciunt excepturi, optio dicta voluptates. Quibusdam, sapiente minima?</p>
+                 <a href="#">Learm More</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Desing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quis labore magni, animi id perspiciatis aut fuga soluta facilis quia impedit quae,
+                 nesciunt excepturi, optio dicta voluptates. Quibusdam, sapiente minima?</p>
+                 <a href="#">Learm More</a>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="./ui55.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur. consectetur.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./ui55.png" alt="">
+                <div class="layer">
+                    <h3>UI/Ux Media App</h3>
+                    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur. consectetur.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./ui22.jpeg" alt="">
+                <div class="layer">
+                    <h3>Desing App</h3>
+                    <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur. consectetur.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="Btn">See More</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-share"></i>Content@email.com</p>
+                <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                <div class="socal-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <a href="#" class="Btn btn-2"> Downlode CV</a>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+<script>
+
+    let tab = document.getElementsByClassName('tab-links');
+    let tabcon = document.getElementsByClassName('tab-contents');
+    
+    
+    function opentab(tabname){
+        for(let tab of tab){
+            tab.classList.removeClass("active");
+    
+        }
+        for(let tabcon of tabcon){
+            tabcon.classList.removeClass("active-tab");
+    
+        }
+        event.currentTarget.classList.addClass("active")
+        document.getElementById(tabname).classList.addClass("active-tab")
+    
+    }
+    
+    </script>
+</html>
